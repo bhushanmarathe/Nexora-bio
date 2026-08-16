@@ -79,7 +79,7 @@ export default function MolecularVisual() {
         rotateX,
         rotateY,
       }}
-      className="relative mx-auto aspect-square w-full max-w-[600px]"
+      className="relative mx-auto aspect-square w-[88vw] max-w-[600px] md:w-full"
     >
       <motion.div
         animate={{
@@ -164,9 +164,9 @@ export default function MolecularVisual() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute left-1/2 top-1/2 flex h-32 w-32 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#b7ffce]/30 bg-[#b7ffce]/5 backdrop-blur-xl"
+        className="absolute left-1/2 top-1/2 flex h-24 w-24 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#b7ffce]/30 bg-[#b7ffce]/5 backdrop-blur-xl md:h-32 md:w-32"
       >
-        <div className="h-16 w-16 rounded-full border border-[#b7ffce]/50 bg-[#b7ffce]/10 shadow-[0_0_60px_rgba(183,255,206,0.25)]" />
+        <div className="h-12 w-12 rounded-full border border-[#b7ffce]/50 bg-[#b7ffce]/10 shadow-[0_0_60px_rgba(183,255,206,0.25)] md:h-16 md:w-16" />
       </motion.div>
 
       <motion.div
@@ -176,7 +176,7 @@ export default function MolecularVisual() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute left-[8%] top-[30%] rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] uppercase tracking-[0.25em] text-white/50 backdrop-blur-md"
+        className="absolute left-[6%] top-[30%] rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[8px] uppercase tracking-[0.2em] text-white/50 backdrop-blur-md md:px-4 md:py-2 md:text-[10px] md:tracking-[0.25em]"
       >
         DNA / RNA
       </motion.div>
@@ -188,7 +188,7 @@ export default function MolecularVisual() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute bottom-[20%] right-[5%] rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] uppercase tracking-[0.25em] text-white/50 backdrop-blur-md"
+        className="absolute bottom-[20%] right-[5%] rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[8px] uppercase tracking-[0.2em] text-white/50 backdrop-blur-md md:px-4 md:py-2 md:text-[10px] md:tracking-[0.25em]"
       >
         Genomics
       </motion.div>
