@@ -164,9 +164,9 @@ export default function MolecularVisual() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute left-1/2 top-1/2 flex h-24 w-24 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#b7ffce]/30 bg-[#b7ffce]/5 backdrop-blur-xl md:h-32 md:w-32"
+        className="absolute left-1/2 top-1/2 flex aspect-square w-[32%] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#b7ffce]/40 bg-[#b7ffce]/10 shadow-[0_0_80px_rgba(183,255,206,0.18)] backdrop-blur-xl"
       >
-        <div className="h-12 w-12 rounded-full border border-[#b7ffce]/50 bg-[#b7ffce]/10 shadow-[0_0_60px_rgba(183,255,206,0.25)] md:h-16 md:w-16" />
+        <div className="aspect-square w-[50%] rounded-full border border-[#b7ffce]/60 bg-[#b7ffce]/20 shadow-[0_0_60px_rgba(183,255,206,0.35)]" />
       </motion.div>
 
       <motion.div
