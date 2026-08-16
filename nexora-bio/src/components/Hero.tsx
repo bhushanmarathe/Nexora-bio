@@ -4,7 +4,7 @@ import MolecularVisual from "./MolecularVisual";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden px-6 pt-32 md:px-10">
+    <section className="relative min-h-0 overflow-hidden px-6 pt-32 md:px-10 lg:min-h-screen">
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-1/4 top-0 h-[500px] w-[500px] rounded-full bg-[#48ff91]/5 blur-[120px]" />
         <div className="absolute bottom-0 right-0 h-[500px] w-[500px] rounded-full bg-[#35a7ff]/5 blur-[140px]" />
@@ -19,7 +19,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="mx-auto flex min-h-[calc(100vh-8rem)] max-w-7xl items-center">
+      <div className="mx-auto flex min-h-0 max-w-7xl items-center lg:min-h-[calc(100vh-8rem)]">
         <div className="grid w-full items-center gap-8 lg:grid-cols-[1fr_0.9fr]">
           <div>
             <motion.div

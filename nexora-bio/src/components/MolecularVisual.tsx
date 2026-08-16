@@ -79,7 +79,7 @@ export default function MolecularVisual() {
         rotateX,
         rotateY,
       }}
-      className="relative mx-auto aspect-square w-[88vw] max-w-[600px] md:w-full"
+      className="relative mx-auto aspect-square w-[90vw] max-w-[600px] lg:w-full"
     >
       <motion.div
         animate={{
