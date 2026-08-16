@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-/* --------------------------------
-   Base
--------------------------------- */
-
 html,
 body,
 #root {
@@ -34,18 +30,10 @@ body {
   box-sizing: border-box;
 }
 
-/* --------------------------------
-   Text selection
--------------------------------- */
-
 ::selection {
   background: #8cffc1;
   color: #050807;
 }
-
-/* --------------------------------
-   Scrollbar
--------------------------------- */
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -64,10 +52,6 @@ body {
   background: rgba(183, 255, 206, 0.5);
 }
 
-/* --------------------------------
-   Subtle grain texture
--------------------------------- */
-
 body::before {
   content: "";
   position: fixed;
@@ -77,10 +61,6 @@ body::before {
   opacity: 0.025;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E");
 }
-
-/* --------------------------------
-   Mobile
--------------------------------- */
 
 @media (max-width: 640px) {
   body {
@@ -92,17 +72,11 @@ body::before {
   }
 }
 
-/* --------------------------------
-   Accessibility
--------------------------------- */
-
 :focus-visible {
   outline: 2px solid #b7ffce;
   outline-offset: 4px;
   border-radius: 4px;
 }
-
-/* Respect reduced-motion preferences */
 
 @media (prefers-reduced-motion: reduce) {
   *,

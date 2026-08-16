@@ -7,7 +7,7 @@ A React + TypeScript landing page for a fictional biotechnology company focused 
 
 The website combines a dark scientific visual language with subtle green accents, animated molecular visuals, scroll-based animations, responsive layouts, and interactive single-page navigation.
 
-Live demo: `https://your-deployment-url.com`
+Live demo: `https://nexora-bio-eight.vercel.app/`
 
 ---
 
@@ -286,7 +286,7 @@ npm -v
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/nexora-bio.git
+git clone https://github.com/bhushanmarathe/Nexora-bio.git
 ```
 
 ### 2. Navigate to the project directory
@@ -404,12 +404,6 @@ The implementation includes:
 - Reduced-motion support
 
 The global stylesheet includes a `prefers-reduced-motion` media query to reduce animations and transitions for users who prefer reduced motion.
-
----
-
-## Live Demo
-
-`https://your-deployment-url.com`
 
 ---
 
